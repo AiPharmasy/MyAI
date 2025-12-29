@@ -7,7 +7,7 @@ from datetime import datetime
 # ==============================
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHANNEL_ID = os.environ["CHANNEL_ID"]
-OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
 
 # ==============================
 # ارسال پیام تلگرام
