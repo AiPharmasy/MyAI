@@ -2,7 +2,7 @@ name: Telegram Hourly Message
 
 on:
   schedule:
-    - cron: "0 * * * *"   # هر یک ساعت
+    - cron: "* * * * *"   # هر یک ساعت
   workflow_dispatch:
 
 jobs:
